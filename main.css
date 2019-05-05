@@ -1,0 +1,496 @@
+*{margin:0px;padding:0px;}
+
+
+
+header .carousel-inner .item{
+	height: 100vh;
+	width:100%;
+	
+}
+
+.navbar-inverse{
+	background-color: transparent;
+	border-color: transparent;
+	margin: 68px 0;
+}
+.navbar-inverse .navbar-brand{
+padding:5px 0px;
+padding-left: 40%;
+
+
+}
+.navbar-brand img{
+	
+	margin-right: 50px;
+}
+
+.navbar-inverse .navbar-nav >li > a:link,
+.navbar-inverse .navbar-nav >li > a:visited{
+	color: #000;
+	font-weight: 500;
+
+}
+.navbar-inverse .navbar-nav >li > a:hover,
+.navbar-inverse .navbar-nav >li > a:active
+{
+color: #555;
+}
+.banner{
+	height: 100vh;
+	background-position: center center;
+	background-size: cover;
+}
+.nav.navbar-nav.navbar-right{
+	background-color:rgba(255,255,255,0.6);
+	margin: 23px 0;
+	
+}
+.nav.navbar-nav.navbar-right .reserve a{
+	color: #fff;
+	opacity: 1;
+	font-size: 17px;
+
+}
+.carousel-caption h2{
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+.reserve{
+	background-color: #1F9505;
+	
+
+}
+
+.rowl{
+	display: block;
+	color: #fff;
+}
+.longhead{
+	margin-top:-70px;
+	background-color: #000;
+	text-align: center;
+	padding: 7px 0;
+	width:100%;
+}
+
+.stickywhite{
+	background: #fff;
+	padding: 15px 0px;
+	position:fixed;
+	width:100%;
+	margin-top:0;
+
+
+	
+}
+.stickywhite .rowl{
+	display:none;
+	visibility: hidden;
+	
+	
+}
+
+.stickywhite .navbar-inverse{
+	background-color: transparent;
+	border-color: transparent;
+	margin: 10px 0;
+}
+.stickywhite .nav.navbar-nav.navbar-right{
+	background-color:rgba(255,255,255,0.6);
+	margin: 23px 0;
+	display: inline-block;
+	
+}
+.container{
+width:100%;
+padding:0;
+margin:0;
+padding: 5px 20px;}
+
+#section{
+	padding: 80px 200px;
+	background-color: #F7F7F7;
+	height: 230px;
+}
+
+body{padding:0;
+overflow-x: hidden;
+background: #F7F7F7;
+font-family: 'Fira Sans', sans-serif;
+}
+#section p{
+	text-align: center;
+	font-size: 18px;
+
+
+}
+
+.carousel-control.right{
+	background-image: none;
+
+}
+
+.carousel-control.left{
+	background-image: none;
+
+}
+
+#food{
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/foodbox.jpg);
+	height: 380px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 60px 10%;
+	-webkit-box-shadow: inset 1px 5px 42px -28px rgba(181,177,181,1);
+-moz-box-shadow: inset 1px 5px 42px -28px rgba(181,177,181,1);
+box-shadow: inset 1px 5px 42px -28px rgba(181,177,181,1);
+
+}
+
+#food p{
+	margin-top: 40px;
+	text-align: center;
+	font-size: 45px;
+	color: #fff;
+}
+
+.bt{
+	margin-top: 25px;
+	font-size: 16px;
+	background-image: linear-gradient(to right bottom, #25c80d, #4cc603, #64c400, #77c201, #87c008);
+	color: #fff;
+	text-align: center;
+	border: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding: 10px 25px;
+}
+
+#dish{
+	margin: 15px 0;
+	float: left;
+	
+}
+
+
+
+.clear{
+	clear: both;
+}
+#dishtext{
+	text-align: center;
+	float: left;
+	width: 490px;
+	background-color: #fff;
+	margin: 50px 0;
+	padding: 40px 15px;
+	left: 55px;
+	cursor: pointer;
+	transition: margin 0.4s;
+
+border-radius: 10px;
+}
+#dishtext2{
+	width: 490px;
+	background-color: #fff;
+	margin: 114px 0;
+	padding: 40px 15px;
+	float: left;
+	position:relative;
+	zoom:0;	
+	left: 20px;
+
+}
+#dishy{
+	float: right;
+	margin-right: 20px;
+	right:70px;
+	padding-top: 80px;
+
+}
+
+
+#dish2{position: absolute;
+
+}
+#dishtext2 p{
+	line-height: 220%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+
+#dishtext p{
+	line-height: 220%;
+	text-align: center;
+	padding-top: 10px;
+	padding: 0 30px;
+}
+#dishtext2 h2{
+	text-align:center;
+}
+
+
+
+.view-menu{
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.view-menu:after{
+	display: block;
+	content: "";
+	border: 0.4px solid #555;
+	width: 100px;
+	margin: 0 auto;
+	font-family: 'Fira Sans', sans-serif;
+
+} 
+
+
+
+.row{
+	margin: 0 auto;
+	width: 100%;
+}
+
+.section-food{
+	width: 100%;
+	margin: 50px 0;
+	overflow: hidden;
+	
+}
+
+.sweet-foods{
+	list-style: none;
+		
+
+}
+
+.sweet-foods li{
+	display: inline-block;
+	float: left;
+	width: 25%;
+	
+
+}
+
+
+.hungry{
+	width: 100%;
+	background-color: #000;
+	overflow: hidden
+
+
+}
+
+.hungry img{
+	width: 100%;
+	opacity: 0.7;
+	transition: opacity 1s, transform 1s;
+	transform: scale(1.15);
+
+
+}
+
+.hungry img:hover{
+	opacity: 1;
+	transform: scale(1.03);
+
+}
+
+
+
+footer{
+	
+	background-color: #000;
+	padding: 10px 30px;
+	width: 100%;
+	left:0;
+	bottom: 0;
+	position: fixed;
+	transition: border 2s;
+
+	
+
+}
+
+.roll{
+	margin: 0 auto;
+	width: 1140px;
+	overflow: hidden;
+	opacity:1;
+	animation-direction: 1s
+}
+.roll.animated{
+	opacity:1;
+}
+
+.contain{
+	margin-top: 130px;
+
+}
+
+footer ul{
+	list-style: none;
+	float: right;
+	padding: 0 10px;
+	transition: border 2s;
+
+
+}
+
+footer li{
+	display: inline-block;
+	padding: 0 10px;
+	color:#fff;
+}
+
+
+footer li:hover{
+	color:brown;
+}
+
+footer .icon{
+color:#fff;
+font-size: 20px;
+padding: 10px;
+}
+
+.cardo{
+	border: 1px solid silver;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background-color: #fff;
+	padding: 30px 0 30px 25px;
+	position: relative;
+
+}
+
+
+
+.cardo h3{
+	font-family: 'Artifika', serif;
+}
+
+
+.cardo li{
+	line-height: 200%;
+	margin-left: 18px;
+}
+.menu-info{
+	margin-bottom: 35px;
+}
+
+.fruits{
+	position: absolute;
+	width: 400px;
+	margin-top: 450px;
+	z-index: -1;
+}
+
+.together{
+	background-color: #fff;
+	margin:100px 0;
+	height: 320px;
+	overflow: hidden;
+
+
+}
+.together h2{
+	margin-top: 60px;
+	font-family: 'Artifika', serif;
+	font-weight: 600;
+}
+
+.together p{
+	font-size: 17px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+
+.read{
+	display: block;
+	margin: 0 auto;
+	width: 122px;
+	padding: 10px 0;
+	font-size: 15px;
+	border: none;
+	-webkit-box-shadow: -1px 26px 39px -12px rgba(115,237,104,1);
+-moz-box-shadow: -1px 26px 39px -12px rgba(115,237,104,1);
+box-shadow: -1px 26px 39px -12px rgba(115,237,104,1);
+	background-image: linear-gradient(to right bottom, #25c80d, #4cc603, #64c400, #77c201, #87c008); 
+	position: relative;
+
+}
+
+.veg_food{
+	top:0;
+	left: 0;
+	width: 650px;
+}
+
+.stats{
+	background-color:#198107;
+
+	color:#fff;
+
+}
+
+.checkin{
+	margin-top: 100px;
+	height: 300px;
+}
+
+form input[type="text"]{
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+form input[type="email"]{
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+form{
+	margin: 0 auto;
+	width: 70%;
+	height: 500px;
+}
+
+textarea{
+	resize: none;
+}
+
+.stat{
+	background-color: #198107;
+	padding: 20px 0;
+	color:#fff;
+}
+.statrate{
+	margin: 0 auto;
+	padding: 15px 0;
+
+}
+
+.stat-items h1{
+	font-size: 42px;
+	font-weight: bold;
+	color: gold;
+}
+
+.stat-items p{
+	letter-spacing: 1px;
+	font-weight: bold;
+
+}
+
+.stat-items i{
+	font-size: 50px;
+}
